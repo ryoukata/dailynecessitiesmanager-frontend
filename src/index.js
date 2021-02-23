@@ -3,12 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { DailyNecessitiesItemsList } from "./dailyNecessitesItems.js";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <DailyNecessitiesItemsList />
   </React.StrictMode>,
   document.getElementById('root')
 );

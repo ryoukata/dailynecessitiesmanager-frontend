@@ -17,7 +17,6 @@ export function DailyNecessitiesItemsList() {
       <div>
         <ul>
         {dailyNecessitiesItems.map((item) => {
-          console.log(item)
           return <li>id={item.id} name={item.name} category={item.category}</li>
         })}
         </ul>
