@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import { DailyNecessitiesItemsList } from "./dailyNecessitesItems.js";
 import { AddItem } from "./addItem.js";
