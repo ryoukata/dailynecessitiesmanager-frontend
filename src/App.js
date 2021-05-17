@@ -3,6 +3,7 @@ import './App.css';
 import { DailyNecessitiesItemsList } from "./dailyNecessitesItems.js";
 import { AddItem } from "./addItem.js";
 import { SideBar } from './sideBar';
+import { ModalZone } from "./modalZone";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     // </div>
     <div>
       <SideBar />
+      <ModalZone />
       <AddItem />
       <DailyNecessitiesItemsList />
     </div>
