@@ -7,6 +7,7 @@ export function ModalZone() {
 
   const showModal = () => setShow(true);
 
+  // hooksで子コンポーネントに値を渡すには、呼び出しているコンポーネントに渡す値を指定する
   return (
     <>
       <div>
